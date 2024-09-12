@@ -13,9 +13,19 @@ body {
   color: aliceblue;
   font-family: Roboto, sans-serif;
   line-height: 2rem;
+  display: flex;
 }
 
-a {
-  color: rgb(185, 201, 214);
-  text-decoration: none;
+.nav {
+  display: flex;
+  gap: 2rem;
+  align-items: end;
+  background-color: rebeccapurple;
+}
+
+.app {
+  width: 900px;
+  height: 90vh;
+  background-color: aliceblue;
+  color: black;
 }
