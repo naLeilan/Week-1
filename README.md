@@ -8,7 +8,8 @@
 - Output: Build a simple portfolio webpage showcasing what you learn.
 
   App: Portfolio Website
-  • A simple webpage showcasing your skills (HTML, CSS, JavaScript).
-  • Sections: About, Projects, Skills, and Contact Form.
-  • Use Flexbox and Grid for layout.
-  • Make it responsive.
+
+  - A simple webpage showcasing your skills (HTML, CSS, JavaScript).
+  - Sections: About, Projects, Skills, and Contact Form.
+  - Use Flexbox and Grid for layout.
+  - Make it responsive.
