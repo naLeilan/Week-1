@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(46, 46, 46);
+  color: aliceblue;
+  font-family: Roboto, sans-serif;
+  line-height: 2rem;
+}
+
+a {
+  color: rgb(185, 201, 214);
+  text-decoration: none;
+}
