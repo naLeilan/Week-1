@@ -1,3 +1,33 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark light;
+  --color-light: #dee2e6;
+  --bg: #1a1a1d;
+
+  /* Primary Color (for key elements like buttons, links, and highlights) */
+  --color-Bright-purple: #624b81;
+
+  /* Text Color (for headings and body text): */
+  --color-dark-gray: #272a2c;
+
+  /* Secondary Color (for accents, less important buttons, or hover states): */
+  --color-medium-gray: #6c757d;
+
+  /* Border Color (for card borders or input fields): */
+  --color-light-gray: #dee2e6;
+
+  /* nav bar: */
+  --color-rich-purple: #6a0dad;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,27 +35,34 @@
 }
 
 body {
-  padding: 2rem;
+  margin: 0;
+  padding: 2rem 3rem;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: rgb(46, 46, 46);
-  color: aliceblue;
-  font-family: Roboto, sans-serif;
-  line-height: 2rem;
-  display: flex;
-}
-
-.nav {
-  display: flex;
-  gap: 2rem;
-  align-items: end;
-  background-color: rebeccapurple;
+  color: var(--color-light-gray);
+  background-color: var(--bg);
 }
 
 .app {
   width: 900px;
   height: 90vh;
-  background-color: aliceblue;
-  color: black;
+  color: var(--color-light-gray);
+  background-color: var(--color-dark-gray);
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  gap: 2.5rem;
+  align-items: end;
+  background-color: var(--color-Bright-purple);
+  height: 2rem;
+  align-items: center;
+  padding: 1rem;
 }

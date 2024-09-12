@@ -5,15 +5,15 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <nav className="nav">
         <About />
         <Projects />
         <Skills />
         <ContactUs />
       </nav>
-      <div className="app">app</div>
-    </>
+      <div className="main">app</div>
+    </div>
   );
 }
 
