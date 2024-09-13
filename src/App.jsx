@@ -1,8 +1,5 @@
-import About from "./components/About";
-import ContactUs from "./components/ContactUs";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import { FaL, FaN } from "react-icons/fa6";
+import { MdDarkMode } from "react-icons/md";
+import { FaGithub, FaL, FaLinkedinIn, FaN, FaTwitter } from "react-icons/fa6";
 
 function App() {
   return (
@@ -12,13 +9,23 @@ function App() {
           <FaL />
           <FaN />
         </div>
-        <About />
-        <Projects />
-        <Skills />
-        <ContactUs />
+        <div className="navitems">
+          <a>About</a>
+          <a>Projects</a>
+          <a>Skills</a>
+          <a>ContactUs</a>
+        </div>
+        <div className="darkmode">
+          <MdDarkMode />
+        </div>
       </nav>
       <div className="main">app</div>
-      <footer className="footer">footer</footer>
+      <footer className="footer">
+        <FaTwitter className="twitter" />
+        <FaGithub className="github" />
+        <FaLinkedinIn className="linkedin" />
+        <p className="footer-p">copyright</p>
+      </footer>
     </div>
   );
 }
