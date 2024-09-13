@@ -86,11 +86,9 @@ a:hover,
 .logo:hover,
 .darkmode:hover {
   color: var(--color-Bright-purple);
+  scale: 1.1;
 }
 
-.logo {
-  font-size: 2rem;
-}
 /****************/
 /****  main *****/
 /****************/
