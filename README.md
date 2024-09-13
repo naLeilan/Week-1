@@ -13,3 +13,6 @@
   - Sections: About, Projects, Skills, and Contact Form.
   - Use Flexbox and Grid for layout.
   - Make it responsive.
+
+- Used https://react-icons.github.io/react-icons/
+  npm install react-icons --save

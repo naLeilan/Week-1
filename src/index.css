@@ -5,13 +5,13 @@
 
   color-scheme: dark light;
   --color-light: #dee2e6;
-  --bg: #1a1a1d;
+  --bg: #212021;
 
   /* Primary Color (for key elements like buttons, links, and highlights) */
   --color-Bright-purple: #624b81;
 
   /* Text Color (for headings and body text): */
-  --color-dark-gray: #272a2c;
+  --color-dark-gray: #212021;
 
   /* Secondary Color (for accents, less important buttons, or hover states): */
   --color-medium-gray: #6c757d;
@@ -51,18 +51,35 @@ body {
   width: 900px;
   height: 90vh;
   color: var(--color-light-gray);
-  background-color: var(--color-dark-gray);
+  /* background-color: var(--color-dark-gray); */
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
+  gap: 1rem;
 }
 
 .nav {
   display: flex;
-  justify-content: end;
+  /* justify-content: end; */
+  /* background-color: var(--color-Bright-purple); */
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
   gap: 2.5rem;
-  align-items: end;
-  background-color: var(--color-Bright-purple);
-  height: 2rem;
+  height: 3rem;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.main {
+  height: 80vh;
+}
+.footer {
+  /* background-color: var(--color-medium-gray); */
+  height: 7rem;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
