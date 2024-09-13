@@ -48,10 +48,11 @@ body {
 }
 
 .app {
-  width: 900px;
+  width: 800px;
   height: 90vh;
+  padding: 1.5rem;
   color: var(--color-light-gray);
-  /* background-color: var(--color-dark-gray); */
+  background-color: var(--color-medium-gray);
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -68,7 +69,7 @@ body {
 }
 
 .darkmode {
-  margin-left: auto; /* Pushes the dark mode icon to the right */
+  margin-left: auto;
 }
 
 .navitems {
@@ -91,11 +92,31 @@ a:hover,
 .logo {
   font-size: 2rem;
 }
-
+/****************/
+/****  main *****/
+/****************/
 .main {
   height: 80vh;
+  padding: 3rem 2rem;
 }
 
+.main h2 {
+  font-size: 70px;
+  font-weight: 800;
+  width: 300px;
+  line-height: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.main p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  padding-top: 1rem;
+  text-align: justify;
+}
+/****************/
+/****footer *****/
+/****************/
 .footer {
   display: flex;
   flex-direction: row;
