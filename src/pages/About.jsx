@@ -1,6 +1,9 @@
+import PageLayout from "../components/Pagelayout";
+
 function About() {
   return (
     <div className="main">
+      <PageLayout />
       <h2>Full-time Freelancer</h2>
       <p>
         A **freelance web developer** is a self-employed professional who

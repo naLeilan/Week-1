@@ -1,5 +1,12 @@
+import PageLayout from "../components/Pagelayout";
+
 function ContactUs() {
-  return <div>Contact</div>;
+  return (
+    <div>
+      <PageLayout />
+      Contact
+    </div>
+  );
 }
 
 export default ContactUs;

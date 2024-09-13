@@ -11,17 +11,16 @@ import PageNotFound from "./pages/PageNotFound";
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="skills" element={<Skills />} />
-        <Route path="about" element={<About />} />
-        <Route path="contactus" element={<ContactUs />} />
-        <Route path="*" element={<PageNotFound />} />
-      </Routes>
       <div className="app">
-        <Logo />
-        <About />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="about" element={<About />} />
+          <Route path="contactus" element={<ContactUs />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+        {/* <About /> */}
         <Footer />
       </div>
     </BrowserRouter>

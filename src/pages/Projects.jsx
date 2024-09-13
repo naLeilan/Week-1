@@ -1,5 +1,12 @@
+import PageLayout from "../components/Pagelayout";
+
 function Projects() {
-  return <div>Projects</div>;
+  return (
+    <div>
+      <PageLayout />
+      Projects
+    </div>
+  );
 }
 
 export default Projects;

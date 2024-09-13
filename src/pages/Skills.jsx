@@ -1,5 +1,12 @@
+import PageLayout from "../components/Pagelayout";
+
 function Skills() {
-  return <div>Skills</div>;
+  return (
+    <div>
+      <PageLayout />
+      Skills
+    </div>
+  );
 }
 
 export default Skills;
