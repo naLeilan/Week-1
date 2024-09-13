@@ -2,6 +2,8 @@ import { MdDarkMode } from "react-icons/md";
 import { FaGithub, FaL, FaLinkedinIn, FaN, FaTwitter } from "react-icons/fa6";
 
 function App() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="app">
       <nav className="nav">
@@ -35,7 +37,16 @@ function App() {
         <FaTwitter className="twitter" />
         <FaGithub className="github" />
         <FaLinkedinIn className="linkedin" />
-        <p className="footer-p">copyright</p>
+        <p className="copyright">
+          Copyright &copy;
+          <a
+            className="Github-link"
+            target="_blank"
+            href="https://github.com/NaLeilan"
+          >
+            Leilan Na {currentYear}
+          </a>
+        </p>
       </footer>
     </div>
   );

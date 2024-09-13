@@ -125,7 +125,7 @@ a:hover,
   gap: 0.7rem;
 }
 
-.footer-p {
+.copyright {
   margin-left: 2rem;
   font-size: 1rem;
 }
@@ -143,4 +143,8 @@ a:hover,
   scale: 1.5;
   color: var(--color-Bright-purple);
   cursor: pointer;
+}
+
+.Github-link {
+  text-decoration: none;
 }
