@@ -3,13 +3,14 @@ function About() {
     <div className="main">
       <h2>Full-time Freelancer</h2>
       <p>
-        Full-time Freelancer is a short, self-published book that offers a
-        concise view of the finances involved in freelancing full-time. It
-        contains real financial numbers from my freelancing experience in 2010
-        and 2011. I wrote it for those who are planning to go out on their own
-        at some point and would like to see a real-world scenario of what that
-        looks like. It’s the book I wish I had been able to read before I dived
-        in to freelancing full-time.
+        A **freelance web developer** is a self-employed professional who
+        specializes in building and maintaining websites for various clients on
+        a project-by-project basis. Their responsibilities include coding,
+        testing, and deploying websites while ensuring they meet client
+        specifications and industry standards. To succeed, they must stay
+        updated with the latest technologies and trends, manage time
+        effectively, and communicate clearly with clients to deliver
+        high-quality, responsive websites.
       </p>
     </div>
   );

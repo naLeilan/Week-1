@@ -49,7 +49,6 @@ body {
 
 .app {
   width: 800px;
-  height: 90vh;
   padding: 1.5rem;
   color: var(--color-light-gray);
   background-color: var(--color-medium-gray);
@@ -96,7 +95,7 @@ a:hover,
 /****  main *****/
 /****************/
 .main {
-  height: 80vh;
+  /* height: 500px; */
   padding: 3rem 2rem;
 }
 
@@ -120,7 +119,6 @@ a:hover,
 .footer {
   display: flex;
   flex-direction: row;
-  height: 7rem;
   font-size: 1.5rem;
   gap: 0.7rem;
   align-items: center;
