@@ -82,6 +82,7 @@ body {
   transition: all 0.3s;
 }
 
+a,
 .darkmode {
   margin-left: auto;
   transition: all 0.3s;
@@ -94,10 +95,15 @@ body {
   margin-left: 4rem;
 }
 
+a {
+  text-decoration: none; /* Removes the underline */
+}
+
 .logo {
   transition: all 0.3s;
 }
 
+a:hover,
 .logo:hover,
 .darkmode:hover {
   color: var(--color-Bright-purple);
@@ -133,8 +139,13 @@ body {
   display: flex;
   flex-direction: row;
   font-size: 1.5rem;
-  gap: 0.7rem;
+  gap: 1rem;
   align-items: center;
+}
+
+.footer-items {
+  display: flex;
+  gap: 1rem;
 }
 
 .copyright {

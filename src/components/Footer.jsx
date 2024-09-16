@@ -5,19 +5,20 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <a href="https://x.com/NaLeilan" target="_blank">
-        <FaTwitter className="twitter" />
-      </a>
-      <a href="https://github.com/NaLeilan" target="_blank">
-        <FaGithub className="github" />
-      </a>
-      <a
-        href="https://www.linkedin.com/in/leilan-na-77688931b/"
-        target="_blank"
-      >
-        <FaLinkedinIn className="linkedin" />
-      </a>
-
+      <div className="footer-items">
+        <a href="https://x.com/NaLeilan" target="_blank">
+          <FaTwitter className="twitter" />
+        </a>
+        <a href="https://github.com/NaLeilan" target="_blank">
+          <FaGithub className="github" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/leilan-na-77688931b/"
+          target="_blank"
+        >
+          <FaLinkedinIn className="linkedin" />
+        </a>
+      </div>
       <p className="copyright">
         Copyright &copy;
         <a
