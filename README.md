@@ -1,8 +1,11 @@
 # Week 1 (Days 1-7): HTML, CSS, JavaScript Basics
 
+## Simple portfolio:
+
 - Focus:
   - HTML5, CSS3, Box Model, Flexbox, Grid, and CSS Responsive Design.
   - JavaScript fundamentals: variables, data types, functions, control flow, arrays, objects, DOM manipulation.
+  - Router
 - Daily Commitment: 4-5 hours
 - Resources: MDN, freeCodeCamp, YouTube tutorials.
 - Output: Build a simple portfolio webpage showcasing what you learn.
