@@ -117,7 +117,8 @@ a:hover,
   margin-bottom: 1.5rem;
 }
 
-.main p {
+.main p,
+.main li {
   font-size: 1.2rem;
   line-height: 1.5rem;
   padding-top: 1rem;
