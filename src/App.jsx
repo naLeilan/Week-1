@@ -1,6 +1,5 @@
 import About from "./pages/About";
 import Footer from "./components/Footer";
-import Logo from "./components/Logo";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";

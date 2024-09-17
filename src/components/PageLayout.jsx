@@ -1,5 +1,5 @@
-import { MdDarkMode } from "react-icons/md";
 import { NavLink } from "react-router-dom";
+import DarkMode from "./DarkMode";
 
 function PageLayout() {
   return (
@@ -14,7 +14,7 @@ function PageLayout() {
         <NavLink to="/contactus">Contact Us</NavLink>
       </div>
       <div className="darkmode">
-        <MdDarkMode />
+        <DarkMode />
       </div>
     </nav>
   );

@@ -3,9 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: dark light;
-  --color-light: #dee2e6;
-  --bg: #212021;
+  --text-color: #212021;
+  --background-color: #dee2e6;
 
   /* Primary Color (for key elements like buttons, links, and highlights) */
   --color-Bright-purple: #624b81;
@@ -28,6 +27,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+[data-theme="dark"] {
+  --background-color: #212021;
+  --text-color: #dee2e6;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -43,15 +47,15 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  color: var(--color-light-gray);
-  background-color: var(--bg);
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .app {
   width: 800px;
   padding: 1.5rem;
-  color: var(--color-light-gray);
-  background-color: var(--color-medium-gray);
+  /* color: var(--color-light-gray);
+  background-color: var(--color-medium-gray); */
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -69,7 +73,7 @@ body {
   width: 100%;
   height: 100%; /* Stretch to fill the container */
   object-fit: cover; /* Ensure the image covers the container, cropping if necessary */
-  filter: blur(10px);
+  filter: blur(100px);
 }
 
 .nav {
@@ -80,6 +84,11 @@ body {
   gap: 2.5rem;
   cursor: pointer;
   transition: all 0.3s;
+}
+
+.darkmode {
+  width: 30px;
+  height: 30px;
 }
 
 a,
@@ -106,7 +115,7 @@ a {
 a:hover,
 .logo:hover,
 .darkmode:hover {
-  color: var(--color-Bright-purple);
+  /* color: var(--color-Bright-purple); */
   scale: 1.1;
 }
 
@@ -161,6 +170,6 @@ a:hover,
 .footer a:hover {
   transform: translateY(-3px);
   scale: 1.5;
-  color: var(--color-Bright-purple);
+  /* color: var(--color-Bright-purple); */
   cursor: pointer;
 }
