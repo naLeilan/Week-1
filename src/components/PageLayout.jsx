@@ -11,7 +11,7 @@ function PageLayout() {
         <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/skills">Skills</NavLink>
         <NavLink to="/about">About</NavLink>
-        <NavLink to="/contactus">Contact Us</NavLink>
+        {/* <NavLink to="/contactus">Contact Us</NavLink> */}
       </div>
       <div className="darkmode">
         <DarkMode />
