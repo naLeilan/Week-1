@@ -6,25 +6,7 @@
   --text-color: #212021;
   --background-color: #dee2e6;
 
-  /* Primary Color (for key elements like buttons, links, and highlights) */
-  --color-Bright-purple: #624b81;
-
-  /* Text Color (for headings and body text): */
-  --color-dark-gray: #212021;
-
-  /* Secondary Color (for accents, less important buttons, or hover states): */
-  --color-medium-gray: #6c757d;
-
-  /* Border Color (for card borders or input fields): */
-  --color-light-gray: #dee2e6;
-
-  /* nav bar: */
-  --color-rich-purple: #6a0dad;
-
   font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 [data-theme="dark"] {
@@ -54,8 +36,6 @@ body {
 .app {
   width: 800px;
   padding: 1.5rem;
-  /* color: var(--color-light-gray);
-  background-color: var(--color-medium-gray); */
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -102,10 +82,12 @@ a,
   display: flex;
   gap: 2rem;
   margin-left: 4rem;
+  color: var(--text-color);
 }
 
 a {
-  text-decoration: none; /* Removes the underline */
+  text-decoration: none;
+  transition: all 0.3s;
 }
 
 .logo {
@@ -115,8 +97,8 @@ a {
 a:hover,
 .logo:hover,
 .darkmode:hover {
-  /* color: var(--color-Bright-purple); */
-  scale: 1.1;
+  scale: 1.2;
+  color: #3f3e3f;
 }
 
 /****************/
@@ -170,6 +152,5 @@ a:hover,
 .footer a:hover {
   transform: translateY(-3px);
   scale: 1.5;
-  /* color: var(--color-Bright-purple); */
   cursor: pointer;
 }
