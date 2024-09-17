@@ -5,7 +5,7 @@ function PageLayout() {
   return (
     <nav className="nav">
       <div className="logo">
-        {/* <img src="/icon.png" alt="icon" height="70px" /> */}
+        {/* <img src="/icon.png" alt="icon" height="100px" /> */}
       </div>
       <div className="navitems">
         <NavLink to="/projects">Projects</NavLink>
