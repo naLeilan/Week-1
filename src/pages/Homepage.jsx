@@ -5,7 +5,7 @@ function Homepage() {
     <div>
       <PageLayout />
       <div className="homepage-img-container">
-        <img src="1.jpg" alt="Homepage Image" className="homepage-img" />
+        {/* <img src="1.jpg" alt="Homepage Image" className="homepage-img" /> */}
       </div>
     </div>
   );

@@ -2,10 +2,12 @@ import PageLayout from "../components/Pagelayout";
 
 function ContactUs() {
   return (
-    <div>
+    <>
       <PageLayout />
-      Contact
-    </div>
+      <div className="main">
+        <p></p>
+      </div>
+    </>
   );
 }
 
