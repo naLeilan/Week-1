@@ -23,7 +23,7 @@ It supports basic arithmetic operations, has a clean design, and works on both d
 
 ## 🚀 Live Demo
 
-[Click here to try the app]()
+[Click here to try the app](https://linschmitz.github.io/Calculator/)
 
 ---
 
